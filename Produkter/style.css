@@ -44,25 +44,19 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100% ;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title {
     
     margin-top: 100px;
     background-color: rgb(179, 135, 236);
-    height: 100px;
-    width: 300px;
     border-radius: 15px;
-    
-    
 }
 
 h1 {
-    
     text-align: center;
-    
-
 }
 
 .product_container {
