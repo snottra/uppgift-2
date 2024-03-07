@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <style></style>
 
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-<style>
-
-</style>
-
-<body>
-    <ul>
-        <li><a href="../Hem/index.html">Hem</a></li>
-        <li><a href="../Produkter/products.html">Produkter</a></li>
-        <li><a class="active" href="contact.html">Kontakt</a></li>
-        <li><a href="../Om oss/about.html">Om oss</a></li>
-        <li><a href="../Dokumentation/documentation.html">Dokumentation</a></li>
-        <li style="float:right"><a class="logo" href="../Hem/index.html"><img src="xxx"></a></li>
-
-    </ul>
-
-
-
-</body>
-<script></script>
-
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../Hem/index.html">Hem</a></li>
+                <div class="dropdown">
+                    <a href="../Produkter/products.html"
+                        ><button
+                            class="dropbutton"
+                            style="font-family: sans-serif"
+                        >
+                            Produkter
+                        </button></a
+                    >
+                    <div class="dropdown-content">
+                        <a href="../Produkter/velo.html">VELO</a>
+                        <a href="../Produkter/loop.html">LOOP</a>
+                        <a href="../Produkter/xqs.html">XQS</a>
+                    </div>
+                </div>
+                <li>
+                    <a href="../Kontakt/contact.html" class="active">Kontakt</a>
+                </li>
+                <li><a href="../Om oss/about.html">Om oss</a></li>
+                <li>
+                    <a href="../Dokumentation/documentation.html"
+                        >Dokumentation</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <div class="page_container">
+            <div class="left_container">
+                <div class="title">
+                    <h1>Kontakta oss</h1>
+                </div>
+                <ul class="ul_contact">
+                    <li class="li_contact">mail</li>
+                    <li class="li_contact">telefonnummer</li>
+                    <li class="li_contact">socialamedier</li>
+                    <ul>
+                        <li class="li_contact">facebook</li>
+                        <li class="li_contact">linkdIn</li>
+                        <li class="li_contact">tiktok</li>
+                    </ul>
+                </ul>
+            </div>
+            
+            <div class="right_container">
+                <img src="../Images/boss.png">
+            </div>
+        </div>
+    </body>
+    <script></script>
 </html>
