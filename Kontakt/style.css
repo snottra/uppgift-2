@@ -135,6 +135,7 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   margin: 0;
+  padding: 8px 10px;
 }
 
 .description {
@@ -150,6 +151,7 @@ h3 {
   color: white;
   font-family: sans-serif;
   margin: 0;
+  padding: 8px 10px;
 }
 
 .contact_details {
@@ -164,4 +166,8 @@ padding: 8px 10px;
   
   color: #00788d;
   font-weight: 600;
+}
+
+.li_contact {
+  display: flex;
 }
