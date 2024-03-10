@@ -1,15 +1,13 @@
-.allt {
-    
-}
 body {
     background-color: rgb(127, 174, 127);
     margin: 0 0;
-    overflow: hidden;
 }
 
 nav {
     overflow: hidden;
     width: 100vw;
+    position: relative;
+    z-index: 69696969; /* två extra 69:or (for clarity) */
 }
 
 ul {
@@ -154,12 +152,22 @@ img {
     width: 100%;
 }
 
-#wrap {
-    background-color: rgba(255, 255, 255, 0.6);
-    min-height: 100%;
-    width: 100%;
- 
+#slideshow {
     overflow: hidden;
     border: none;
-    z-index: 999999 !important;
+}
+
+#overlay {
+    z-index: 696969; /* en extra 69:a (for clarity) */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+ 
+#dim {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 6969;
 }

@@ -1,10 +1,13 @@
-const slideshowWrap = document.getElementById("wrap");
+const slideshowWrap = document.getElementById("overlay");
+const dimEl = document.getElementById("dim");
 
 function toggle() {
   slideshowWrap.style.display = "block";
+  dimEl.style.display = "block";
 }
 function closeWindow() {
   slideshowWrap.style.display = "none";
+  dimEl.style.display = "none";
 }
 
 var slideIndex = 1;
