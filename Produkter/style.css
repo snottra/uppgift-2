@@ -187,3 +187,11 @@ footer {
 p {
     margin: auto;
 }
+
+#open {
+    width: 62px;
+}
+
+#close {
+    width: 62px;
+}

@@ -138,7 +138,7 @@ h1 {
 .item {
   width: 250px;
   height: 250px;
-  background-color: limegreen;
+  background-color: rgb(47, 204, 243);
   border-radius: 30px;
   margin: 25px 25px 25px 25px;
 }
