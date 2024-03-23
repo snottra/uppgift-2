@@ -89,6 +89,7 @@ li a:hover {
 }
 
 .page_container {
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   flex-direction: column;
