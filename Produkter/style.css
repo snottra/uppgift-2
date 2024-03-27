@@ -8,6 +8,7 @@ nav {
     width: 100vw;
     position: relative;
     z-index: 69696969;
+    max-height: 46.4px;
     /* två extra 69:or (for clarity) */
 }
 
@@ -17,6 +18,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    max-height: 46.4px;
 }
 
 li {
@@ -30,11 +32,14 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-family: sans-serif;
+    max-height: 46.4px;
+
 
 }
 
 button {
     font-family: sans-serif;
+    max-height: 46.4px;
 }
 
 li a:hover {
@@ -47,11 +52,13 @@ li a:hover {
 
 .active {
     background-color: #dd3a3a;
+    max-height: 46.4px;
 }
 
 .dropdown {
     float: left;
     overflow: hidden;
+    max-height: 46.4px;
 }
 
 .dropdown .dropbutton {
@@ -60,7 +67,7 @@ li a:hover {
     outline: none;
     color: white;
     padding: 14px 16px;
-
+    max-height: 46.4px;
     font-family: inherit;
     margin: 0;
 }
@@ -186,6 +193,7 @@ footer {
 
 p {
     margin: auto;
+    top: 50%;
 }
 
 #open {
