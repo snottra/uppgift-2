@@ -125,6 +125,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding: 0px 10px;
 }
 
 .product_container {
@@ -149,7 +150,7 @@ img {
 }
 
 footer {
-  bottom:0;
+  bottom: 0;
   display: flex;
   height: 60px;
   margin-top: 50px;
